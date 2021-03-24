@@ -1,6 +1,6 @@
 import * as ActionTypes from './ActionTypes';
 import { baseUrl } from '../shared/baseUrl';
-import thunk from 'redux-thunk';
+//import thunk from 'redux-thunk';
 
 export const fetchComments = () => dispatch => {
     return fetch(baseUrl + 'comments')
